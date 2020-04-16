@@ -1,7 +1,7 @@
 
 variable region {
     description = "AWS Region"
-    default = "us-east-1"
+    default = "ap-southeast-2"
 }
 
 variable "stack" {
@@ -31,7 +31,7 @@ variable "vm_size" {
 }
 
 variable "ssh_key" {
-    default = "~/.ssh/id_rsa.pub"
+    default = "postgre"
     description = "Path to the public key to be used for ssh access to the VM"
 }
 
